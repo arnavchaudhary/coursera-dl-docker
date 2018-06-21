@@ -7,7 +7,7 @@ FROM python:3.6-slim
 RUN apt-get install build-essential python-dev libssl-dev libffi-dev
 
 
-RUN pip install coursera-dl==0.10.0
+RUN pip install coursera-dl
 RUN pip install urllib3 pyasn1 ndg-httpsclient pyOpenSSL
 
 
